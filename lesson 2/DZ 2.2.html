@@ -6,44 +6,49 @@
     <title>Document</title>
 </head>
 <style>
-    body {
-        background-color: rgb(229, 238, 235);
-    }
-    h1 {
-        padding: 20px;
-    }
-    #MTDL {
+   ul > li:nth-child(even) {
+    background-color: skyblue;
+   }
+   ul > li:nth-child(odd) {
+    background-color: rgb(85, 190, 238);
+   }
+   body {margin-left: 30%;margin-right: 30%;}
+
+    #text {
         margin: 20px;
         padding: 20px;
         color: black;
-        list-style-position: inside;
+        background-color: aliceblue;
+       
     }
-    #MTDL li {
-        
-        margin: 10px;
-        padding: 5px;
-        background-color: rgb(61, 154, 182);
+    #text li {
+        list-style-type: none;
+        padding-top: 7px;
+        padding-left: 20px; 
     }
     
-    
+   
+    .uncheked:before{content:url(icons/unchecked_16.png);padding-right: 20px;}
+    .marked:before{content:url(icons/checked_16.png);padding-right: 20px;}
+    .uncheked:after{content: url(icons/arrow_16.png); padding-left: 90px;}
+    .marked:after{content:url(icons/arrow_16.png);padding-left: 90px;}
 
 </style>
 <body>
-    <h1>My To Do List</h1>
-    <ul id="MTDL">
-        <li><span>Hit the gym</span></li>
-        <li><span><s>Pay bills</s></span></li>
-        <li><span>Meet John</span></li>
-        <li><span>Buy eggs</span></li>
-        <li><span><s>Read a book</s></span></li>
-        <li><span>Organize office</span></li>
-        <li><span>Eat dinner</span></li>
-        <li><span>Buy apples</span></li>
-        <li><span>Meet george</span></li>
-        <li><span>Feed the cat</span></li>
-        <li><span><s>Write a letter</s></span></li>
-        <li><span>Run 1 km</span></li>
-        
+    <ul id="text">
+        <p><h1>My To Do List</h1></p>
+            <li><span class="uncheked">Hit the gym</span></li>
+            <li style="background-color: gray;"><span class="marked"><s>Pay bills</s></span></li>
+            <li><span class="uncheked">Meet John</span></li>
+            <li><span class="uncheked">Buy eggs</span></li>
+            <li style="background-color: gray;"><span class="marked"><s>Read a book</s></span></li>
+            <li><span class="uncheked">Organize office</span></li>
+            <li><span class="uncheked">Eat dinner</span></li>
+            <li><span class="uncheked">Buy apples</span></li>
+            <li><span class="uncheked">Meet george</span></li>
+            <li><span class="uncheked">Feed the cat</span></li>
+            <li style="background-color: gray;"><span class="marked"><s>Write a letter</s></span></li>
+            <li><span class="uncheked">Run 1 km</span></li>
     </ul>
 </body>
 </html>
