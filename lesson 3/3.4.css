@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    line-height: 1.2;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: auto;
+    padding: 60px 10%;
+    background-color: rgb(49, 62, 236) ;
+
+}
+
+ul {
+    list-style: none;
+    color: white;
+}
+
+.footer{
+    width: 25%; 
+
+}
+ul li:not(:last-child){
+    margin-bottom: 8px;
+
+}
+ ul li img:hover{
+
+ }
+ #1:hover{
+    background-image: url(icons/fb.png);
+ }
