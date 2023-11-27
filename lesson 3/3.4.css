@@ -20,7 +20,10 @@ footer {
     margin-top: auto;
     padding: 60px 10%;
     background-color: rgb(49, 62, 236) ;
-
+    
+}
+footer:hover {
+    text-decoration: underline;
 }
 
 ul {
@@ -28,17 +31,20 @@ ul {
     color: white;
 }
 
-.footer{
-    width: 25%; 
+.footer {
+    width: 25%;
+
 
 }
-ul li:not(:last-child){
+ul li:not(:last-child) {
     margin-bottom: 8px;
-
 }
- ul li img:hover{
 
- }
- #1:hover{
-    background-image: url(icons/fb.png);
- }
+.images {
+    letter-spacing: 3em;
+    
+}
+.footer_icons {
+    margin-left: 20%;
+}
+
