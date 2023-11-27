@@ -22,7 +22,7 @@ footer {
     background-color: rgb(49, 62, 236) ;
     
 }
-footer:hover {
+.footer li:hover {
     text-decoration: underline;
 }
 
@@ -43,8 +43,11 @@ ul li:not(:last-child) {
 .images {
     letter-spacing: 3em;
     
+    
 }
 .footer_icons {
     margin-left: 20%;
 }
-
+.img1:hover {
+    background-image: url(icons/fb.png);
+}
