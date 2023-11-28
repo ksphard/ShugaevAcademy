@@ -48,6 +48,12 @@ ul li:not(:last-child) {
 .footer_icons {
     margin-left: 20%;
 }
+.img1 {
+    filter: grayscale(100%);
+    transition:filter 0.5s ease-in-out;
+
+}
 .img1:hover {
-    background-image: url(icons/fb.png);
+    filter: none;
+  -webkit-filter: grayscale(0);
 }

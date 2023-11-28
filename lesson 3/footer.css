@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: auto;
+    padding: 50px 10%;
+    background-color: rgb(201, 130, 186) ;
+
+}
+
+ul {
+    list-style: none;
+    color: white;
+}
+
+
+
+.footer  {
+    width: 25%; }
+
+li:hover { 
+        color:#57578a; 
+        border-bottom: 1.2px solid #c3c3e5;
+    }
+1:hover {
+    background-image: "Images/fb.png";
+}
+2:hover {
+    background-image: "Images/insta.png";
+}
+3:hover {
+    background-image: "Images/youtube.png";
+}
