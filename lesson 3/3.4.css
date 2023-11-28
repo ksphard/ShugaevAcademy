@@ -24,11 +24,13 @@ footer {
 }
 .footer li:hover {
     text-decoration: underline;
+    
 }
 
 ul {
     list-style: none;
     color: white;
+    padding-left: 200px;
 }
 
 .footer {
