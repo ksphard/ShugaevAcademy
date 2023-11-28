@@ -33,27 +33,36 @@ ul {
 
 .footer {
     width: 25%;
-
-
 }
 ul li:not(:last-child) {
     margin-bottom: 8px;
+    line-height: 2em;
 }
 
 .images {
-    letter-spacing: 3em;
-    
+    gap: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+
     
 }
+
 .footer_icons {
     margin-left: 20%;
 }
-.img1 {
+.img-wrapped {
     filter: grayscale(100%);
-    transition:filter 0.5s ease-in-out;
-
+    transition: filter 0.5s ease-in-out;
 }
-.img1:hover {
+.img-wrapped:hover {
     filter: none;
-  -webkit-filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+}
+.podval {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding-top: 70px;
+    color: white;
 }
