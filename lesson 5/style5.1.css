@@ -1,10 +1,45 @@
-tr {
-    background-color: 250, 250, 250;
-    text-align: left;
-
+body {
+    margin: 0;
 }
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-    
+.text {
+    text-align: justify;
+    padding-left: 150px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    margin-left: 20px;
+}
+.parent {
+    position: absolute;
+}
+.text p {
+    font-size: 18pt;
+}
+.menu {
+    float: left;
+    height: 1vh;
+    background-color: gray;
+    color: white;
+    width: 150px;
+    height: 100vh;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    display: block;
+}
+img {
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+}
+span {
+    margin-left: 100px;
+    margin-top: 70px;
+    z-index: 1;
+}
+.dropout {
+    display: flex;
+}
+.menu:hover {
+    width: 400px;
+    position: fixed;
 }

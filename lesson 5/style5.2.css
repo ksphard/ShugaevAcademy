@@ -1,0 +1,29 @@
+thead tr  {
+    background-color: rgb(210, 250, 250);
+}
+thead tr th {
+    width: 150px;
+}
+thead {
+    position: sticky;
+    top: 0;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    min-width: 1000px;
+    overflow: scroll;
+}
+tr td:first-child {
+    font-weight: 700;
+    background-color: rgb(210, 250, 250);
+    position: sticky;
+    left: 0;
+}
+tr {
+    text-align: center;
+}
+tbody tr:nth-child(even) {
+    background-color: gainsboro;
+}
+

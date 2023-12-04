@@ -1,0 +1,134 @@
+.allcards {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 5%;
+    font-family:'Times New Roman', Times, serif;   
+    font-weight: 700;   
+}
+
+.card1 {
+    text-align: center;
+    border: none;
+    border-color: gray;
+    border-radius: 15px;
+    width: 200px;
+    height: 400px;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.3);
+    filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.3));
+    background-color: white;
+    margin: -1rem 1;
+    }
+.card1:hover {
+    transform: scale(1.3);
+    transition: 1s;
+    z-index: 1;
+    position: relative;
+}
+.card1 hr {
+    height: 2px;
+}
+.card1 button {
+    background-color: red;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+}
+
+
+.card2 {
+    text-align: center;
+    border-width: 1;
+    border-color: gray;
+    border-radius: 15px;
+    width: 200px;
+    height: 400px;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.3);
+    filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.3));
+    background-color: white;
+    margin: -1rem 1;
+}
+.card2:hover {
+    transform: scale(1.3);
+    transition: 1s;
+ }
+.card2 hr {
+    height: 2px;  
+}
+.card2 button {
+    background-color: orange;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+}
+
+.card3 {
+    text-align: center;
+    border-width: 1;
+    border-color: gray;
+    border-radius: 15px;
+    width: 200px;
+    height: 400px;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.3);
+    filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.3));
+    background-color: white;
+    margin: -1rem 1;
+}
+.card3:hover {
+    transform: scale(1.3);
+    transition: 1s;
+ }
+.card3 hr {
+    height: 2px;
+}
+.card3 button {
+    background-color: aquamarine;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+}
+
+.card4 {
+    text-align: center;
+    border-width: 1;
+    border-color: gray;
+    border-radius: 15px;
+    width: 200px;
+    height: 400px;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.3);
+    filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.3));
+    background-color: white;
+    margin: -1rem 1;   
+}
+.card4:hover {
+    transform: scale(1.3);
+    transition: 1s;
+ }
+.card4 hr {
+    height: 2px;
+}
+.card4 button {
+    background-color: greenyellow;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+}
+
+.per {
+    color:rgb(165, 162, 158);
+}
+h2 {
+    font-size: 50px;
+}
