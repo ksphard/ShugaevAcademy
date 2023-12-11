@@ -1,0 +1,130 @@
+body {
+    width: 1600px;
+    height: 2250px;
+    font-family: Montserrat;
+    font-size: 25px;
+    line-height: 30px;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: linear-gradient(180deg, #EDA418 47.4%, rgba(237, 164, 24, 0) 100%);
+    width: 1900px;
+    height: 900px;
+    
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 230px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #000;
+}
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+.burg {
+    float: right;
+    position: relative;
+    width: 640px;
+    height: 600px;
+    margin-left: 350px;
+    margin-top: -500px;
+}
+.clearfix::after { 
+    content: "";         
+    clear: both; 
+    display: block; 
+  }
+
+button.btn {
+    border: 0px;
+    background-color: red;
+    border-radius: 50px;
+    height: 60px;
+    width: 143px;
+    margin-left: 130px;
+    margin-top: 29px;
+    color: white;
+    flex-shrink: 0;
+}
+.navigation {
+    display: inline-block;
+    width: 100%;
+}
+
+main {
+    background: #FFFFFF;
+    width: 1900px;
+    height: 900px;
+}
+.figure {
+    border-radius: 50px;
+    height: 300px;
+    width: 450px;
+    margin: 10px;
+    padding: 10px;
+    font-weight: 900;
+    font-size: 18pt;
+    text-align: center;
+
+}
+.figures {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 87px;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+
+footer {
+    width: 100%;
+    height: 450px;
+    background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, #EDA61D 100%);
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: auto;
+    padding: 50px 10%;
+    list-style-type: none;
+}
+.footer {
+    width: 33%;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    align-items: center;
+}
+.navigation {
+    display: inline-block;
+    width: 100%;
+}
+
+.discr{
+    margin-left: 70px;
+    margin-top: 367px;
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 750px;
+}
