@@ -24,3 +24,10 @@ width: 30%;
 li:hover {
     background: rgb(71, 68, 68);
 }
+#name {
+    width:  200px;
+    height: 15px;
+    padding: 5px 10px 5px 10px;
+    border:1px solid #999;
+    font-size:16px;
+}
