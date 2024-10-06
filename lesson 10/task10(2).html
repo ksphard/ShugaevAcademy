@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> <!--Системная информация-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CreditCard</title>
+    <link rel="stylesheet" href="task10(2).css">
+    </head>
+    <body>
+        <h2 style="align-items: center; margin-left: 30px;">INPUTS</h2>
+        <div class = "inputs">
+            <form >
+                <label>
+                        <input class = "emptyinput" type="text" placeholder="Enter some text" />
+                </label>
+            </form> 
+            <form>
+                <label>
+                    <input class = "validinput" type="text" placeholder ="Valid text" />
+                </label>
+            </form>  
+            <form>
+                <label>
+                    <input class = "invalidinput" type="text" placeholder="Invalid text" />
+                </label>
+            </form>  
+        </div>
+
+        <h2 style="align-items: center; margin-left: 30px; margin-top: 30px;">CHECK BOXES</h2>
+        <div class="checkboxes">
+            <label>
+                <input type="checkbox" id="switch"/>
+                <span>Subscribe</span>
+            </label>
+            <label>
+                <input type="checkbox" id="toggle"/>
+                <span>Subscribe</span>
+            </label>
+        </div>
+    </body>
+
+    <h2 style="align-items: center; margin-left: 30px; margin-top: 30px;">RADIO BATTONS</h2>
+   <div class="gender">
+    <p>Gender:</p>
+        <input type="radio" value="male"
+            id="gender1" name="sex" />
+        <label for="gender1">Male</label>
+        <input type="radio" value="female"
+            id="gender2" name="sex" />
+        <label for="gender2">Female</label>
+    </div>
+
+<h2 style="align-items: center; margin-left: 30px; margin-top: 30px;">BATTONS</h2>
+<button class="active">Active</button>
+<button class="hover">Hover</button>
+<button class="danger">Danger</button>
+<button class="hover1">Hover</button>
+<button class="disaibled">Disabled</button>
+<button class="plus">+</button>
+<button class="minus">-</button>
+
+<h2 style="align-items: center; margin-left: 30px; margin-top: 30px;">Text area</h2>
+<div class="textarea">
+    <label for="message"><Text area></label>
+    <textarea id="message" name="userMessage" placeholder="Enter some text">
+            </textarea>
+    </div>
